@@ -1,0 +1,10 @@
+MIAB_HM2
+    -main.go
+    -Analyzer
+        -Analyzer
+    -Comands
+        -Excecute
+        -MKDISk
+    -Strctures
+        -MKDISk
+    README.MD

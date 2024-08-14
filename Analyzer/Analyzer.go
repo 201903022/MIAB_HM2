@@ -1,6 +1,7 @@
 package analyzer
 
 import (
+	Commands "MIAB_HM2/Comands"
 	"errors"
 	"fmt"
 	"strings"
@@ -18,7 +19,7 @@ func Analyzer(input string) (interface{}, error) {
 	switch tokens[0] {
 	case "execute":
 		fmt.Println("Execute")
-
+		Commands.ParseExecute(tokens[1:])
 	default:
 		return nil, errors.New("Command not found")
 	}

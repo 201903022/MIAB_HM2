@@ -1,6 +1,7 @@
 package main
 
 import (
+	analyzer "MIAB_HM2/Analyzer"
 	"bufio"
 	"fmt"
 	"os"
@@ -19,5 +20,6 @@ func main() {
 	}
 	input = strings.TrimSpace(input)
 	fmt.Println("Input: ", input)
+	analyzer.Analyzer(input)
 
 }

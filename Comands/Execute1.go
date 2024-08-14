@@ -1,4 +1,4 @@
-package comands
+package Commands
 
 import (
 	"bufio"
@@ -20,6 +20,7 @@ func ParseExecute(tokens []string) error {
 	fmt.Println(matches)
 
 	for _, match := range matches {
+		fmt.Println("Match: ", match)
 		parts := strings.SplitN(match, "=", 2)
 		fmt.Println("Parts: ")
 		fmt.Println(parts)
