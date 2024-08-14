@@ -58,7 +58,6 @@ func (mbr *MBR) DeserializeMBR(path string) error {
 	}
 	return nil
 
-	return nil
 }
 
 func (mbr *MBR) Print() {
