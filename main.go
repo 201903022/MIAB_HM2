@@ -10,7 +10,7 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("Hello, World!")
+	//fmt.Println("Hello, World!")
 	fmt.Println("Ingrese el comando: ")
 	fmt.Print("> ")
 	input, err := reader.ReadString('\n')
@@ -19,7 +19,7 @@ func main() {
 
 	}
 	input = strings.TrimSpace(input)
-	fmt.Println("Input: ", input)
+	//fmt.Println("Input: ", input)
 	analyzer.Analyzer(input)
 
 }
